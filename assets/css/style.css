@@ -26,7 +26,6 @@ body {
 }
 
 .header__logo h1 {
-    
     font-size: 17px;
     font-weight: 700;
 
@@ -34,8 +33,7 @@ body {
     color: #FFFFFF;
     text-transform: uppercase;
 
-    margin-bottom: -10px;
-    
+    margin-bottom: -10px;  
 }
 
 .header__logo h2 {
@@ -73,8 +71,7 @@ body {
 
 .nav__link:hover{
     background-color: #C3C3C34D;
-    opacity: 0.5;
-    
+    opacity: 0.5;  
 }
 
 .nav__link:hover:after{
@@ -226,4 +223,59 @@ body {
     text-transform: uppercase;
 }
 
+
+/* Sect-bestworks */
+
+.sect-bestworks {
+    background-color: #202328;
+    padding: 50px 170px;
+    
+}
+
+.container-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    width: 55%;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 170%;
+    margin-right: 47px;
+    text-align: right;
+}
+
+.right-text h2 {
+    color: #F88500;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 47px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.right-text h1 {
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 170%;
+    margin-left: 47px;
+    text-align: left;
+}
+/* About (photo) */
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
 
