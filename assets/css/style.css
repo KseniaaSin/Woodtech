@@ -196,6 +196,8 @@ body {
 }
 
 
+
+
 .phone {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
@@ -236,21 +238,25 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .left-text {
     display: inline-block;
     vertical-align: top;
+    width: 29%;
     padding: 10px 20px;
-    width: 55%;
 
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 170%;
-    margin-right: 47px;
+    margin-right: 100px;
     text-align: right;
+    
 }
+
+
 
 .right-text h2 {
     color: #F88500;
@@ -259,7 +265,7 @@ body {
     text-transform: uppercase;
     margin-left: 47px;
     text-align: left;
-    margin-bottom: -10px;
+    
 }
 
 .right-text h1 {
@@ -269,9 +275,11 @@ body {
     line-height: 170%;
     margin-left: 47px;
     text-align: left;
+    width: 80%;
 }
-/* About (photo) */
 
+
+/* About (photo) */
 
 .about {
     display: flex;
@@ -279,3 +287,42 @@ body {
 
 }
 
+.about-item {
+    width: 30%;
+}
+
+.about-item:hover .about-img img {
+    opacity: 60%;
+}
+
+.about-img {
+    background: #202328;
+}
+
+.about-img img {
+    transition: opacity .2s linear;
+}
+
+/* About (text) */
+
+.about-text {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-left: 50px;
+    margin-right: 30px;
+    font-weight: 800;
+    color: #989DA5;
+    font-size: 14px;
+}
+
+.text p {
+    margin-right: 170px;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: underline;
+}
